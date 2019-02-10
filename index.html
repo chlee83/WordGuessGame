@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+ 
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900|Quicksand|Shadows+Into+Light" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Hangman Game</h1>
+            <div style="font-size: 50px;">Names of Colleges</div>
+        </header>
+
+        <div class="mainContent">
+            <div>
+                <img src="http://images.clipartpanda.com/college-clip-art-9czrjGRcE.jpeg" class="img1">
+                <img src="http://images.clipartpanda.com/college-clip-art-college-clip-art.jpg" class="img2">
+            </div>
+            <div>Start by guessing a letter!</div>
+            <br>
+            <div id="word-chosen-text"></div>
+            <hr>
+
+            <div>Letters Already Guessed</div>
+            <div id="letters-guessed-text"></div>
+            <br>
+            <hr>
+
+            <div>Guesses Left: <span id="guesses-left-text">12</span> &nbsp; &nbsp; ~ &nbsp; &nbsp; Wins: <span id="wins-text">0</span></div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+<!-- javascript file -->
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>

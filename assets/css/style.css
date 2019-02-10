@@ -1,0 +1,64 @@
+html, body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    background-image: url(../images/retina_wood.png);
+    background-repeat: repeat;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    text-align: center;
+}
+
+header {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-top: 80px;
+}
+
+h1 {
+ 
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 100px;
+    background: linear-gradient(330deg, #4b6666 0%, #52a7e0 25%, #354141 50%, #4cb5fa 75%, #768283 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    margin: 20px 0px;
+}
+.mainContent {
+    background-color: #fff;
+    margin: 20px;
+    padding: 30px 20px;
+    border: solid 5px #4b6666;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img1 {
+    max-width: 100px;
+    height: 100px;
+    float: left;
+}
+
+
+.img2 {
+    max-width: 100px;
+    height: 100px;
+    float: right;
+}
+
+/*  Fonts
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+*/
