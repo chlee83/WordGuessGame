@@ -91,11 +91,9 @@ function endGame() {
     if(correctGuess.length === wordPicked.length) {
         wins++
         document.getElementById("wins-text").innerHTML = wins;
-        alert("Congratulations! You got the correct word!")
         resetGame();
 
     } else if (guessesLeft === 0) {
-        alert("Didn't get it this time. Try again!")
         resetGame();
     }
 }
